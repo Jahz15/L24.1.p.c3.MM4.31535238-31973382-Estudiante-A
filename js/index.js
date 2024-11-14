@@ -27,5 +27,5 @@ let salida = document.getElementById('salida');
 let estudianteS = estudiantesSemestre(estudiante, 5);
 salida.innerHTML = `Estudiantes del semestre 5:<br> `;
 estudianteS.forEach((estudiante) => {
-    salida.innerHTML += `${estudiante.nombre}<br>`;
+    salida.innerHTML += `Nombre: ${estudiante.nombre} - Nota: ${estudiante.nota}<br>`;
 });
